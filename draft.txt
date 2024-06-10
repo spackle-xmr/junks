@@ -1,0 +1,11 @@
+Before Monero gets to FCMP++, it might move to larger rings. The daemon needs some attention to make larger rings viable. To quote selsta: "a large increase to the ring size is going to risk the stability of the network if we don't fix the known daemon inefficiency bugs first."
+
+T testnet fork (the stressnet) has been created to stress test the daemon. The stressnet will be used to perform tests which aid Monero development. 
+
+The current daemon inefficiency bugs require a significant number connections to observe, so we need as many nodes on the stressnet as possible.
+
+You can run a node with this release: https://github.com/spackle-xmr/monero/releases/tag/v250.18.3.3.0
+
+We will conduct the first test on June 19th 15:00 UTC. To participate all you need to do is run a node, preferably with logging set to level 2. If you can't make it for the first test that is OK, there will be more to come. Extra nodes will always be a welcome addition.
+
+spackle
