@@ -6,7 +6,7 @@ A testnet fork (the stressnet) has been created to stress test the daemon. The s
 
 The current daemon inefficiency bugs require a significant number of connections to observe, so we need as many nodes on the stressnet as possible.
 
-To participlate in the stress testing all you need to do is a run a node, preferably with logging set to level 2. You can run a node with the following release (launch monerod with --testnet): https://github.com/spackle-xmr/monero/releases/tag/v250.18.3.3.0
+To participlate in the stress testing all you need to do is a run a node, preferably with logging set to level 2. You can run a node with the following release (launch monerod with --testnet): https://github.com/spackle-xmr/monero/releases/tag/v250.18.3.3.1
 
 We will conduct the first test on June 19th 15:00 UTC. If you can't make it for the first test that is OK, there will be more to come. Extra nodes will always be a welcome addition.
 
