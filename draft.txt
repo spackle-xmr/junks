@@ -1,3 +1,5 @@
+##Monero Stressnet Now Live: Improve Monero By Running A Stressnet Node
+
 Before Monero gets to FCMP++, it might move to larger rings. The daemon needs some attention to make larger rings viable. To quote selsta: "a large increase to the ring size is going to risk the stability of the network if we don't fix the known daemon inefficiency bugs first."
 
 A testnet fork (the stressnet) has been created to stress test the daemon. The stressnet will be used to perform tests which aid Monero development. 
