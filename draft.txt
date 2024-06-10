@@ -10,6 +10,8 @@ To participlate in the stress testing all you need to do is a run a node, prefer
 
 We will conduct the first test on June 19th 15:00 UTC. If you can't make it for the first test that is OK, there will be more to come. Extra nodes will always be a welcome addition.
 
+Improving monerod is a worthwhile endeavor that deserves to be done, whether it enables a fork to larger rings or not. I invite everyone to work towards a more robust monerod.
+
 Ongoing discussion is being held at #monero-stressnet:monero.social 
 (IRC is ##monero-stressnet)
 
