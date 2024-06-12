@@ -4,7 +4,7 @@ Before Monero gets to FCMP++ it might move to larger rings, but this requires so
 
 A testnet fork (the stressnet) has been created to stress test the daemon and diagnose performance bottlenecks. To participate, you can simply run a node using this release (launch monerod with --testnet): https://github.com/spackle-xmr/monero/releases/tag/v250.18.3.3.1
 
-We will conduct the first test on June 19th 15:00 UTC. Current bugs require a significant number of connections to observe, so we need as many nodes on the stressnet as possible. If you can't make it for the first test that is OK, there will be more to come. Improving monerod is a worthwhile endeavor that deserves to be done, whether it enables a fork to larger rings or not.
+Testing begins on June 19th at 15:00 UTC. Current bugs require a significant number of connections to observe, so we need as many nodes on the stressnet as possible. Improving monerod is a worthwhile endeavor that deserves to be done, whether it enables a fork to larger rings or not.
 
 Ongoing discussion is being held at #monero-stressnet:monero.social (IRC is ##monero-stressnet)
 
