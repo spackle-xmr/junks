@@ -1,0 +1,37 @@
+The Stressnet So Far
+
+First thing's first: While we are nearing the end of the 2 month window originally planned, the stress testing is planned to continue for at least another 2 months. (insert plan details here). For anyone willing, your continued or new participation is welcome!
+
+# Fun stats and graphics (insert here)
+Largest block was 7.96 MB at height 2535337 with 4652 transactions.
+Most transactions in a block is 4909 at height 2535307
+Most transactions cleared in 30 blocks: 100863 transactions starting at block 2547555.
+
+#Results:
+
+cryptonote_core: only verify txpool when the hardfork value has changed.
+https://github.com/monero-project/monero/pull/9404
+
+Blockchain: fix temp fails causing alt blocks to be permanently invalid
+https://github.com/monero-project/monero/pull/9395
+
+tx_pool: update internal data structure to boost::bimap.
+https://github.com/monero-project/monero/pull/9376
+
+Daemons processing big blocks may bump against serializer sanity checks and fail to sync
+https://github.com/monero-project/monero/issues/9388
+
+
+
+
+# My Personal Opinions
+
+#Items for future attention:
+examine inability of rpc wallet to connect to daemon during large mempool
+why mempool sometimes prunes itself below the max weight?
+
+
+#potential tests
+take private testnet to 30MB block by manipulating mining/broadcast. Just the exercise of sync'ing it will be useful.
+block propagation speed testing
+practical performance eval for hardware / connection speeds
